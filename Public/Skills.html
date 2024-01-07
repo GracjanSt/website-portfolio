@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Share+Tech&display=swap" rel="stylesheet">
+    <title>Skills</title>
+    <style>
+      body{
+        background-image: url(../images/mountain.jpg);
+        animation: none;
+        background-size: 1550px;
+      }
+      .allskill{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .skcontainer{
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 2fr; 
+        height: 70vh;
+        margin-top: 50px;
+        margin-left: 120px;
+      }
+      .tskills{
+        background-color: #89828280;
+        border-radius: 10%;
+        font-weight: 500;
+        font-size: 22px;
+      }
+      .sfskills{
+        background-color: #89828280;
+        border-radius: 10%;
+        font-weight: 500;
+        font-size: 22px;
+      }
+      h2{
+        margin-top: 10px;
+        text-align: center;
+      }
+      .sfskills h2{
+        font-family: 'Lobster', sans-serif;
+      }
+      .tskills h2{
+        font-family: 'Share Tech', sans-serif;
+      }
+      .sfskills li{
+        font-size: 23px;
+        font-weight: 400;
+        cursor: context-menu;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+      .tskills li{
+        cursor: context-menu;
+        font-family: 'Nanum Gothic', sans-serif;
+      }
+      footer{
+          display: flex;
+          justify-content: flex-end;
+          margin-right: 10px;
+      }
+      footer p{
+          margin-right: 20px;
+      }
+    </style>
+</head>
+<body>
+  <div class="allskill">
+    <div class="skcontainer">
+      <div class="tskills">
+        <h2>Technology Skills</h2> 
+          <div class="tlist">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Video Studio Code</li> 
+                <li>Programming language - Python</li>
+                <li>Jira</li>
+                <li>BrowserStack</li>
+                <li>Postman</li>
+                <li>MySQL</li>
+            </ul>
+          </div>
+        </div>  
+      <div class="sfskills">
+        <h2>Soft Skills</h2>
+        <div class="sflist">
+          <ul>
+              <li></li>
+              <li>Analytical problem-solving skills</li>
+              <li>High adaptability</li>
+              <li>Flexibility</li>
+              <li>Attention to details</li>
+              <li>Team Player</li>
+              <li>Strong interpersonal and communications skills</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <secion>
+    <div class="header">
+      <div class="side-nav">
+          <div class="user">
+            <img src="../images/my photo.png" height="40" class="user-img">
+            <div>
+              <h2>Gracjan Staszak</h2>
+              <a href="mailto:gracjan.staszak@gmail.com"><p>gracjan.staszak@gmail.com</p></a>
+            </div>
+          </div>
+          <ul>
+            <li> <img src="../icons/project.png"><a href="./Procject.html"><p>Projects</p></a></li>
+            <li> <img src="../icons/skills.png"><a href="./Skills.html"><p>Skills</p></a></li>
+            <li> <img src="../icons/experience.png"><a href="./Experience.html"><p>Experience</p></a></li>
+            <li> <img src="../icons/info.png"><a href="./About me.html"><p>About me</p></a></li>
+            <li> <img src="../icons/contact-mail.png"><a href="./Contact.html"><p>Contact</p></a></li>
+          </ul>
+          <ul>
+            <li> <img src="../icons/home.png"><a href="../index.html"><p>Home</p></li>
+          </ul>
+      </div>
+    </div>
+  </secion>
+  
+  <section>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="./Procject.html" class="nav-link px-2 text-body-secondary">Projects</a></li>
+        <li class="nav-item"><a href="./Skills.html" class="nav-link px-2 text-body-secondary">Skills</a></li>
+        <li class="nav-item"><a href="./Experience.html" class="nav-link px-2 text-body-secondary">Experience</a></li>
+        <li class="nav-item"><a href="./About me.html" class="nav-link px-2 text-body-secondary">About me</a></li>
+        <li class="nav-item"><a href="./Contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Gracjan Staszak</p>
+    </footer>
+  </section>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

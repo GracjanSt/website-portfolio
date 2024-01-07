@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>About me</title>
+    <style>
+      .abcontainer > h2{
+        display: grid;
+        grid-column: span 2;
+        font-size: 60px;
+        font-family: 'Lobster', sans-serif;
+      }
+      .abcontainer{
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 100px 500px;
+        font-family: 'Lobster', sans-serif;
+        height: 100vh;
+      }
+      .flcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 100px;
+        
+      }
+      h4{
+        font-size: 20px;
+      }
+      ol li{
+        margin-bottom: 30px;
+      }
+      body{
+      background-image: url(../images/backgroudleg.jpg);
+      animation: none;
+      background-size: 1575px;
+      }
+      footer{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+      }
+      footer p{
+        margin-right: 20px;
+      }
+    </style>
+</head>
+<body>
+  <div class="flcontainer">
+    <div class="abcontainer">
+      <h2>Greetings to all of You</h2>
+      <div class="firstpart">
+        <h3>How to say many things in few words?</h3>
+        <p>
+          My name is Gracjan, nice to meet you. Right now I live in Gdansk, Poland. I was born in Szczecin, and after nearly 28 years I moved out.
+          My youth was time of discovering my study path - I've tried different courses of study - from International Relationship, Physiotherapy (and 5 more), 
+          to finally (after 8 long years) Psychology in Business, which I graduated. 
+          Apart from that, I was also looking for my place to stay in career definition. Started as a barista, then waiter, bartender,
+          restaurant supervisor and now I am Deputy Manager at telecommunication operator store.
+        </p>
+        <p>
+          My free time is divided by three of my passions - Comics, Lego and Tattoos. 
+          If you got any question about DC Comics Silver/Gold Age, or you'll be visiting Gdansk don't be afraid to write me an email,
+          we may arrange some Lego bricks, talking about styles of tattoos. <br/>
+        </p>
+      </div>
+      <div clas="secondpart">
+        <h3>Fast Four Questions</h3>
+        <ol>
+          <li>
+            <h4>What are most important things in everyday living?</h4>
+            Happiness, Development, Seeking of Knowledge.
+          </li>
+          <li>
+            <h4>From the other hand - worst thing?</h4>
+            Boredom.
+          </li>
+          <li>
+            <h4>Cat or Dog Person?</h4>
+            Cat, definetely.
+          </li>
+          <li>
+            <h4>Life Motto:</h4>
+            Even the longest journey begins with the first step.
+          </li>
+        </ol>
+        </div>
+    </div>
+  </div>
+  
+  <secion>
+    <div class="header">
+      <div class="side-nav">
+          <div class="user">
+            <img src="../images/my photo.png" height="40" class="user-img">
+            <div>
+              <h2>Gracjan Staszak</h2>
+              <a href="mailto:gracjan.staszak@gmail.com"><p>gracjan.staszak@gmail.com</p></a>
+            </div>
+          </div>
+          <ul>
+            <li> <img src="../icons/project.png"><a href="./Procject.html"><p>Projects</p></a></li>
+            <li> <img src="../icons/skills.png"><a href="./Skills.html"><p>Skills</p></a></li>
+            <li> <img src="../icons/experience.png"><a href="./Experience.html"><p>Experience</p></a></li>
+            <li> <img src="../icons/info.png"><a href="./About me.html"><p>About me</p></a></li>
+            <li> <img src="../icons/contact-mail.png"><a href="./Contact.html"><p>Contact</p></a></li>
+          </ul>
+          <ul>
+            <li> <img src="../icons/home.png"><a href="../index.html"><p>Home</p></a></li>
+          </ul>
+      </div>
+    </div>
+  </secion>
+  
+  <section>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="./Procject.html" class="nav-link px-2 text-body-secondary">Projects</a></li>
+        <li class="nav-item"><a href="./Skills.html" class="nav-link px-2 text-body-secondary">Skills</a></li>
+        <li class="nav-item"><a href="./Experience.html" class="nav-link px-2 text-body-secondary">Experience</a></li>
+        <li class="nav-item"><a href="./About me.html" class="nav-link px-2 text-body-secondary">About me</a></li>
+        <li class="nav-item"><a href="./Contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Gracjan Staszak</p>
+    </footer>
+  </section>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
