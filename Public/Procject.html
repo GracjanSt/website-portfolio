@@ -13,8 +13,11 @@
     body{
       background-image: url(../images/undersea.jpg);
       animation: none;
-      background-size: 1700px;
-      overflow-x: hidden
+      background-size: 100% 160%;
+      height:100vh;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+      padding: auto;
     }
     .allprojects{
       display: flex;
@@ -23,6 +26,7 @@
       align-items: center;
       font-family: 'Nanum Gothic', sans-serif;
       text-align: center;
+      padding: auto;
     }
     .projcontainer{
       display: grid;
@@ -44,43 +48,49 @@
     }
     footer{
       position: absolute;
-      top: 750px;
+      top: 900px;
       left: 500px;
     }
     .comic{
-      background-color: #00545C80;
+      background-color: #0B343880;
       text-align:center;
       align-items: center;
       font-size: 18px;
-      border: #00375C 3px solid;
+      padding: 15px;
+      border-radius: 10%;
     }
     .birthday{
-      background-color: #00545C80;
+      background-color: #0B343880;
       text-align:center;
       align-items: center;
       font-size: 18px;
-      border: #00375C 3px solid;
+      padding: 15px;
+      border-radius: 10%;
     }
     .mondrian{
-      background-color: #00545C80;
+      background-color: #0B343880;
       text-align:center;
       align-items: center;
       font-size: 18px;
-      border: #00375C 3px solid;
+      padding: 15px;
+      border-radius: 10%;
     }
     .coding{
-      background-color: #00545C80;
+      background-color: #0B343880;
       text-align:center;
       align-items: center;
       font-size: 18px;
-      border: #00375C 3px solid;
+      padding: 15px;
+      border-radius: 10%;
     }
+
     .website{
-      background-color: #00545C80;
+      background-color: #0B343880;
       text-align:center;
       align-items: center;
       font-size: 18px;
-      border: #00375C 3px solid;
+      padding: 15px;
+      border-radius: 10%;
     }
     h5{
       margin-top: 75px;
@@ -89,6 +99,7 @@
       margin-top: 44px;
       font-size: 20px;
     }
+  
   </style>
 </head>
 
@@ -96,7 +107,7 @@
   <div class="allprojects">
     <div class="projcontainer">
       <div class="comic">
-        <h4>First step - Simple List with comic books</h4>
+        <h4>First step - Simple List with comic books</h4> </br>
         <p><a href="../Projects/Comic Books ranking.html"><img src="../images/Fav.Comic Books.png" height="250"></a>
           <h5>First thing which I've learned in HTML - order and unorder lists. Click image to see all.</h5></p>
       </div>
@@ -106,7 +117,7 @@
           <h5>Next step on my journey to become Dev - adding images and some better button styling. Click to see :)</h5></p>
       </div>
       <div class="mondrian">
-        <h4>Third step - Mondrian Project</h4>
+        <h4>Third step - Mondrian Project</h4> </br>
         <p><a href="../Projects/Mondrian.html"><img src="../images/mondrianproject.png" height="200"></a>
           <h5>Beginning of Grid - playing with placing divs, areas and flexbox. As always, click image to see all.</h5></p>
       </div>
