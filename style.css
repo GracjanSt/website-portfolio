@@ -107,7 +107,6 @@ ul img{
 ul li img{
     width: 30px;
     margin-right: 0px;
-    cursor:context-menu;
 }
 ul li p{
     white-space:nowrap;
