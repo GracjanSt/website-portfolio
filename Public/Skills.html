@@ -18,6 +18,7 @@
     <style>
       body{
         background-image: url(../images/mountain.jpg);
+        animation: none;
         background-size: 100% 150%;
         height:100vh;
         background-repeat: no-repeat;
@@ -77,6 +78,27 @@
       footer p{
           margin-right: 20px;
       }
+      .btn {
+      display: flex;
+      align-items:center;
+      justify-content: flex-start;
+      padding:0 20px;
+      width: 200px;
+      color: white;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 10px;
+      transition-duration: 0.4s;
+    }
+    .btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .btn p{
+      margin-top: 10px;
+    }
+    .btn img{
+      margin-top: 10px;
+    }
     </style>
 </head>
 <body>
@@ -88,7 +110,7 @@
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Visual Studio Code</li> 
+                <li>Video Studio Code</li> 
                 <li>Programming language - Python</li>
                 <li>Jira</li>
                 <li>BrowserStack</li>
@@ -124,16 +146,18 @@
               <a href="mailto:gracjan.staszak@gmail.com"><p>gracjan.staszak@gmail.com</p></a>
             </div>
           </div>
-          <ul>
-            <li><a href="../Public/Procject.html"><img src="../icons/project.png"></a><a href="./Procject.html"><p>Projects</p></a></li>
-            <li><a href="../Public/Skills.html"><img src="../icons/skills.png"></a><a href="./Skills.html"><p>Skills</p></a></li>
-            <li><a href="../Public/Experience.html"><img src="../icons/experience.png"></a><a href="./Experience.html"><p>Experience</p></a></li>
-            <li><a href="../Public/About me.html"><img src="../icons/info.png"></a><a href="./About me.html"><p>About me</p></a></li>
-            <li><a href="../Public/Contact.html"><img src="../icons/contact-mail.png"></a><a href="./Contact.html"><p>Contact</p></a></li>
-          </ul>
-          <ul>
-            <li><a href="../index.html"><img src="../icons/home.png"></a><a href="../index.html"><p>Home</p></a></li>
-          </ul>
+          <div class="ul">
+            <ul>
+              <li><button class="btn"><a href="../Public/Procject.html"><img src="../icons/project.png"></a><a href="./Procject.html"><p>Projects</p></button></a></li>
+              <li><button class="btn"><a href="../Public/Skills.html"><img src="../icons/skills.png"></a><a href="./Skills.html"><p>Skills</p></button></a></li>
+              <li><button class="btn"><a href="../Public/Experience.html"><img src="../icons/experience.png"></a><a href="./Experience.html"><p>Experience</p></button></a></li>
+              <li><button class="btn"><a href="../Public/About me.html"><img src="../icons/info.png"></a><a href="./About me.html"><p>About me</p></button></a></li>
+              <li><button class="btn"><a href="../Public/Contact.html"><img src="../icons/contact-mail.png"></a><a href="./Contact.html"><p>Contact</p></button></a></li>
+            </ul>
+            <ul>
+              <li><button class="btn"><a href="../index.html"><img src="../icons/home.png"></a><a href="../index.html"><p>Home</p></button></a></li>
+            </ul>
+          </div>
       </div>
     </div>
   </secion>
