@@ -1,0 +1,132 @@
+footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 0px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    color: antiquewhite;
+}
+footer p{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position:absolute;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.side-nav{
+    width: 90px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px); 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: width 0.5s;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.user div{
+    display: none;
+}
+.user h2{
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.user-img{
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+.check-mark-img{
+    width: 20px;
+    display: none;
+}
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+ul img{
+    margin-bottom: 15px;
+  }
+ul li img{
+    width: 30px;
+    margin-right: 0px;
+}
+ul li p{
+    white-space:nowrap;
+    display:none;
+}
+.side-nav:hover{
+    width:250px;
+}
+.side-nav:hover .user div{
+    display: block;  
+}
+.side-nav:hover .user{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.side-nav:hover .user-img{
+    margin: 0;
+    justify-content: space-around;
+}
+.side-nav:hover ul li p{
+    display: block;
+}
+.side-nav:hover ul li img{
+    margin-right: 10px;
+}
+.side-nav:hover ul li{
+    justify-content: flex-start;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-family: 'Lobster', sans-serif;
+}
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
