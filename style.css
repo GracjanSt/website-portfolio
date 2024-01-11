@@ -110,12 +110,15 @@ ul li p{
 }
 .side-nav:hover ul li p{
     display: block;
+    position:absolute;
 }
 .side-nav:hover ul li img{
     margin-right: 10px;
+    position:absolute;
 }
 .side-nav:hover ul li{
     justify-content: flex-start;
+    position:absolute;
 }
 a {
     text-decoration: none;
