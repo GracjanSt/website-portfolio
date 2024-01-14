@@ -81,7 +81,58 @@
       align-items:flex-start;
       justify-content:flex-end;
     }
+    @media (max-width: 600px) {
+      body{
+        background-image: url(../images/contact.img.jpg);
+        height:70vh;
+        background-repeat: no-repeat;
+        overflow-x: hidden
+      }
+      .contactcontainer{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 0;
+        margin-left: 60px;
+        height: 10vh;
+      }
+      footer{
+        font-size:14px;
+        bottom: 200px;
+      }
+      footer p{
+        font-size: 20px;
+      }
+      .side-nav{
+        width: 50px;
+      }
+      .user{
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+      }
+      .user-img{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -10px;
+        width: auto;
+        pointer-events: none;
+      }
+      .side-nav img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+        margin-left: -10px;
+      }
+      .side-nav:hover p{
+        font-size: 13px;
+      }
+    }
   </style>
+
 </head>
 <body>
   <div class="contactcontainer">
