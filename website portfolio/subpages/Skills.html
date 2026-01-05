@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styling/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Share+Tech&display=swap" rel="stylesheet">
+    <title>Skills</title>
+    <style>
+      body{
+        background-image: url(../images/mountain.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+      }
+      .allskill{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+      }
+      .skcontainer{
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+        grid-auto-rows: auto;
+        margin-top: 70px;
+        margin-left: var(--content-offset);
+        width: calc(100% - var(--content-offset) - 40px);
+        max-width: 1000px;
+      }
+        footer{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+      }
+      footer p{
+        margin-right: 20px;
+      }
+      .tskills{
+        background-color: #89828280;
+        border-radius: 10%;
+        font-weight: 500;
+        font-size: 22px;
+      }
+      .sfskills{
+        background-color: #89828280;
+        border-radius: 10%;
+        font-weight: 500;
+        font-size: 22px;
+      }
+      h2{
+        margin-top: 10px;
+        text-align: center;
+      }
+      .sfskills h2{
+        font-family: 'Lobster', sans-serif;
+        font-size: 40px;
+      }
+      .tskills h2{
+        font-family: 'Share Tech', sans-serif;
+        font-size: 40px;
+      }
+      .sfskills li{
+        font-size: 23px;
+        font-weight: 400;
+        cursor: context-menu;
+        font-family: 'Source Sans 3', sans-serif;
+      }
+      .tskills li{
+        cursor: context-menu;
+        font-family: 'Source Sans 3', sans-serif;
+      }
+      .btn {
+      display: flex;
+      align-items:center;
+      justify-content: flex-start;
+      padding:0 20px;
+      width: 200px;
+      color: white;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 10px;
+      transition-duration: 0.4s;
+    }
+    .btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+    .btn p{
+      margin-top: 15px;
+    }
+    .btn img{
+      margin-top: 10px;
+      display: flex;
+      align-items:flex-start;
+      justify-content:flex-end;
+    }
+    </style>
+</head>
+<body>
+  <div class="allskill">
+    <div class="skcontainer">
+      <div class="tskills">
+        <h2>Technology Skills</h2> 
+          <div class="tlist">
+            <ul>
+                <li>T-SQL</li>
+                <li>Azure DevOps</li>
+                <li>Git / GitHub</li>
+                <li>Basic HTML and CSS</li>
+                <li>Python</li> 
+                <li>Visual Studio Code</li>
+                <li>Jira</li>
+                <li>Postman</li>
+            </ul>
+          </div>
+        </div>  
+      <div class="sfskills">
+        <h2>Soft Skills</h2>
+        <div class="sflist">
+          <ul>
+              <li></li>
+              <li>Analytical problem-solving skills</li>
+              <li>High adaptability</li>
+              <li>Flexibility</li>
+              <li>Attention to details</li>
+              <li>Team Player</li>
+              <li>Strong interpersonal and communication skills</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <secion>
+    <div class="header">
+      <div class="side-nav">
+          <div class="user">
+            <a href="./About me.html"><img src="../images/my photo.jpg" height="40" class="user-img"></a>
+            <div>
+              <h2>Gracjan Staszak</h2>
+              <a href="mailto:gracjan.staszak@gmail.com"><p>gracjan.staszak@gmail.com</p></a>
+            </div>
+          </div>
+          <div class="ul">
+            <ul>
+              <li><a class="btn" href="./Projects.html"><img src="../images/icons/project.png" alt="Projects"><span>Projects</span></a></li>
+              <li><a class="btn" href="./Skills.html"><img src="../images/icons/skills.png" alt="Skills"><span>Skills</span></a></li>
+              <li><a class="btn" href="./Experience.html"><img src="../images/icons/experience.png" alt="Experience"><span>Experience</span></a></li>
+              <li><a class="btn" href="./About me.html"><img src="../images/icons/info.png" alt="About me"><span>About me</span></a></li>
+              <li><a class="btn" href="./Contact.html"><img src="../images/icons/contact-mail.png" alt="Contact"><span>Contact</span></a></li>
+            </ul>
+            <ul>
+              <li><a class="btn" href="../index.html"><img src="../images/icons/home.png" alt="Home"><span>Home</span></a></li>
+              <li><a class="btn" href="#"><img src="../images/icons/copyright.png" alt="Copy"><span>2026 GS</span></a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </secion>
+ <!--
+  <section>
+    <footer class="py-3 my-4">
+      <ul class="footer-nav nav justify-content-center border-bottom pb-0 mb-3">
+        <li class="nav-item"><a href="../subpages/Projects.html" class="nav-link px-2 text-body-secondary">Projects</a></li>
+        <li class="nav-item"><a href="../subpages/Skills.html" class="nav-link px-2 text-body-secondary">Skills</a></li>
+        <li class="nav-item"><a href="../subpages/Experience.html" class="nav-link px-2 text-body-secondary">Experience</a></li>
+        <li class="nav-item"><a href="../subpages/About me.html" class="nav-link px-2 text-body-secondary">About me</a></li>
+        <li class="nav-item"><a href="../subpages/Contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+      </ul>
+      <div class="footer-right">
+        <p class="footer-copyright text-right text-body-secondary">© 2026 Gracjan Staszak</p>
+      </div>
+    </footer>
+  </section>
+   --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
